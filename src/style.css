@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #51d0bb;
 }
 
 .purple {
@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #0c0513;
+  background-color: #0a434b;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #053d43;
 }
 
 /* Handle */
@@ -76,16 +76,16 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #064041a9 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
+  
+  backdrop-filter: blur(10px) !important;
 }
 
 .navbar {
   position: fixed !important;
   transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
+  padding: 0.1rem 1rem !important;
   font-size: 1.2rem !important;
 }
 
@@ -142,9 +142,9 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 1.2rem !important;
+    background-color: #30869a !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -155,7 +155,7 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
+  height: 1.5em !important;
   width: 2.5em !important;
 }
 
@@ -191,7 +191,7 @@ button:focus {
   content: "";
   position: relative;
   display: block;
-  height: 5px;
+  height: 0.5px;
   width: 0;
   border-radius: 16px;
   background: #c95bf5;
@@ -203,6 +203,7 @@ button:focus {
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
+  
 }
 
 /* --------- */
@@ -402,10 +403,10 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgb(14, 95, 109);
   bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important ;
 }
 .footer-copywright {
   text-align: center !important;
